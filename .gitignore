@@ -1,0 +1,42 @@
+# Зависимости (самая тяжелая папка, ставится локально через npm install)
+node_modules/
+jspm_packages/
+web_modules/
+
+# Логи (системные ошибки и отладочная информация)
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Конфиденциальные данные (ключи API, пароли баз данных)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Папки сборки (production-код, генерируемый автоматически из TS, React, Vue и т.д.)
+dist/
+build/
+.next/
+.nuxt/
+out/
+
+# Тесты и покрытие кода
+coverage/
+.nyc_output/
+
+# Кэш инструментов (сервисные файлы линтеров, сборщиков и компиляторов)
+.eslintcache
+.stylelintcache
+.parcel-cache
+.turbo/
+.vite/
+*.tsbuildinfo
+
+# Системные файлы операционных систем
+.DS_Store
+Thumbs.db
